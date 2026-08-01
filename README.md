@@ -259,7 +259,7 @@ npx expo start
 # 👥 Team Neural Nexus
 
 <p align="center">
-<img src="images/Team Photo.jpg" width="700">
+<img src="Gallery/Team Photo.PNG" width="700">
 </p>
 
 *The Neural Nexus team following the successful development of the Smart Contact-Based Flow Meter.*
