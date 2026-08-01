@@ -53,7 +53,7 @@ The system measures water flow using a paddle-wheel flow sensor, processes measu
 ## 📱 Mobile Application
 
 <p align="center">
-  <img src="Gallery/App/1.PNG" width="170">
+  <img src="Gallery/App/1.png" width="170">
   <img src="Gallery/App/2.PNG" width="170">
   <img src="Gallery/App/3.PNG" width="170">
   <img src="Gallery/App/4.PNG" width="170">
