@@ -3,7 +3,7 @@
 An IoT-enabled smart water flow meter designed to provide **real-time flow monitoring**, **historical analytics**, and **wireless connectivity** through a modern mobile application. Developed as part of the Engineering Design Project at the **University of Moratuwa**, the system offers an affordable and locally manufacturable solution for domestic, agricultural, and industrial water management.
 
 <p align="center">
-  <img src="Gallery/Smart Contact-Based Flowmeter.jpg" width="750">
+  <img src="Gallery/Smart Contact-Based Flowmeter.png" width="750">
 </p>
 
 ---
