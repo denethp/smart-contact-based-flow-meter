@@ -37,7 +37,7 @@ The system measures water flow using a paddle-wheel flow sensor, processes measu
 ## Final Product
 
 <p align="center">
-  <img src="images/Smart Contact-Based Flowmeter.jpg" width="750">
+  <img src="Gallery/Smart Contact-Based Flowmeter.PNG" width="750">
 </p>
 
 ---
@@ -45,7 +45,7 @@ The system measures water flow using a paddle-wheel flow sensor, processes measu
 ## Internal Electronics
 
 <p align="center">
-  <img src="images/Smart Contact-Based Flowmeter (Inside).jpg" width="750">
+  <img src="Gallery/Smart Contact-Based Flowmeter (Inside).PNG" width="750">
 </p>
 
 ---
