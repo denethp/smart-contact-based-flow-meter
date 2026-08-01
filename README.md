@@ -54,29 +54,29 @@ The system measures water flow using a paddle-wheel flow sensor, processes measu
 
 <p align="center">
   <img src="Gallery/App/1.png" width="170">
-  <img src="Gallery/App/2.PNG" width="170">
-  <img src="Gallery/App/3.PNG" width="170">
-  <img src="Gallery/App/4.PNG" width="170">
+  <img src="Gallery/App/2.png" width="170">
+  <img src="Gallery/App/3.png" width="170">
+  <img src="Gallery/App/4.png" width="170">
 </p>
 
 <p align="center">
-  <img src="Gallery/App/5.PNG" width="170">
-  <img src="Gallery/App/6.PNG" width="170">
-  <img src="Gallery/App/7.PNG" width="170">
-  <img src="Gallery/App/8.PNG" width="170">
+  <img src="Gallery/App/5.png" width="170">
+  <img src="Gallery/App/6.png" width="170">
+  <img src="Gallery/App/7.png" width="170">
+  <img src="Gallery/App/8.png" width="170">
 </p>
 
 <p align="center">
-  <img src="Gallery/App/9.PNG" width="170">
-  <img src="Gallery/App/10.PNG" width="170">
-  <img src="Gallery/App/11.PNG" width="170">
-  <img src="Gallery/App/12.PNG" width="170">
+  <img src="Gallery/App/9.png" width="170">
+  <img src="Gallery/App/10.png" width="170">
+  <img src="Gallery/App/11.png" width="170">
+  <img src="Gallery/App/12.png" width="170">
 </p>
 
 <p align="center">
-  <img src="Gallery/App/13.PNG" width="170">
-  <img src="Gallery/App/14.PNG" width="170">
-  <img src="Gallery/App/15.PNG" width="170">
+  <img src="Gallery/App/13.png" width="170">
+  <img src="Gallery/App/14.png" width="170">
+  <img src="Gallery/App/15.png" width="170">
 </p>
 The React Native mobile application allows users to:
 
