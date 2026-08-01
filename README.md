@@ -89,14 +89,16 @@ The React Native mobile application allows users to:
 
 ---
 
-## 🎥 Demonstration
+## 🎥 Project Demonstration
 
 <p align="center">
-<a href="Project Demonstration.mp4">
-<img src="images/Smart Contact-Based Flowmeter.jpg" width="700">
-</a>
+  <a href="https://youtu.be/suSUBjm9vPg?si=0In6hv1Zi_KAKpei">
+    <img src="https://img.youtube.com/vi/suSUBjm9vPg/maxresdefault.jpg" width="800" alt="Project Demonstration">
+  </a>
+</p>
 
-Click the image above to watch the project demonstration.
+<p align="center">
+  <b>▶ Click the image above to watch the full project demonstration.</b>
 </p>
 
 ---
