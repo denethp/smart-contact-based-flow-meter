@@ -1,159 +1,197 @@
 # 💧 Smart Contact-Based Flow Meter
 
-A smart IoT-enabled water flow meter designed to provide **real-time flow monitoring**, **historical analytics**, and **wireless connectivity** through a modern mobile application. The system offers an affordable and locally manufacturable solution for domestic, agricultural, and industrial water management.
+An IoT-enabled smart water flow meter designed to provide **real-time flow monitoring**, **historical analytics**, and **wireless connectivity** through a modern mobile application. Developed as part of the Engineering Design Project at the **University of Moratuwa**, the system offers an affordable and locally manufacturable solution for domestic, agricultural, and industrial water management.
 
 <p align="center">
-  <img src="images/final_product.jpg" width="700">
+  <img src="Gallery/Smart Contact-Based Flowmeter.jpg" width="750">
 </p>
 
 ---
 
 ## 📖 Overview
 
-Conventional water flow meters are often limited by poor accuracy, mechanical wear, and the absence of digital monitoring capabilities. This project addresses these limitations by integrating embedded electronics, wireless communication, and a mobile application into a compact smart flow meter.
+Traditional water flow meters provide limited functionality beyond basic flow measurement and often lack digital monitoring capabilities. This project combines embedded electronics, wireless communication, and a cross-platform mobile application into a compact smart flow meter capable of monitoring water consumption in real time.
 
-The system measures water flow using a paddle wheel sensor, processes measurements on an ESP8266 microcontroller, and transmits real-time data to a mobile application via Wi-Fi. Users can monitor flow rate, temperature, total water usage, historical trends, and receive notifications for abnormal flow conditions.
+The system measures water flow using a paddle-wheel flow sensor, processes measurements using an ESP8266 microcontroller, and transmits live data over Wi-Fi to a Node.js backend and React Native mobile application. Users can monitor flow rate, temperature, total water consumption, historical trends, and receive notifications for abnormal flow conditions.
 
 ---
 
 ## ✨ Features
 
-- 💧 Real-time water flow measurement
-- 🌡️ Water temperature monitoring
+- 💧 Real-time flow rate monitoring
+- 🌡 Water temperature measurement
 - 📱 Android & iOS mobile application
-- 📊 Historical flow data visualization
-- 🔔 Overflow and underflow notifications
+- 📊 Historical flow analytics
+- 📈 Live monitoring using WebSockets
+- 🔔 Overflow & underflow notifications
 - 📡 Wi-Fi connectivity
-- 📈 Live dashboard with WebSocket communication
 - 📟 OLED display for standalone operation
 - 🔋 Rechargeable Li-ion battery powered
 - 🧩 Custom PCB and 3D printed enclosure
+- 🔐 JWT-based user authentication
 
 ---
 
-## 🏗️ System Architecture
+# 📷 Product Gallery
 
-```text
-                Water Flow
-                     │
-                     ▼
-          Paddle Wheel Flow Sensor
-                     │
-                     ▼
-                ESP8266 MCU
-        ┌───────────┴───────────┐
-        │                       │
-        ▼                       ▼
-   OLED Display          Wi-Fi Communication
-                                │
-                           WebSocket Server
-                                │
-                                ▼
-                     React Native Mobile App
-```
+## Final Product
+
+<p align="center">
+  <img src="images/Smart Contact-Based Flowmeter.jpg" width="750">
+</p>
+
+---
+
+## Internal Electronics
+
+<p align="center">
+  <img src="images/Smart Contact-Based Flowmeter (Inside).jpg" width="750">
+</p>
 
 ---
 
 ## 📱 Mobile Application
 
-The Neural Nexus mobile application enables users to:
+<p align="center">
+<img src="App/login.png" width="170">
+<img src="App/home.png" width="170">
+<img src="App/monitor.png" width="170">
+<img src="App/analyze.png" width="170">
+</p>
 
-- Monitor live flow rate and temperature
+<p align="center">
+<img src="App/settings.png" width="170">
+<img src="App/devices.png" width="170">
+<img src="App/history.png" width="170">
+<img src="App/profile.png" width="170">
+</p>
+
+The React Native mobile application allows users to:
+
+- Monitor live flow rate and water temperature
 - View total water consumption
 - Analyze historical flow data
 - Configure flow limits
 - Receive abnormal flow alerts
-- Manage multiple flow meters
+- Manage multiple devices
 - View device information
-- Secure authentication using JWT
-
-### Technologies
-
-- React Native
-- Node.js
-- SQLite
-- WebSockets
-- HTTP REST API
-- JWT Authentication
+- Securely authenticate using JWT
 
 ---
 
-## 🔧 Hardware
+## 🎥 Demonstration
 
-| Component | Purpose |
-|-----------|----------|
+<p align="center">
+<a href="Project Demonstration.mp4">
+<img src="images/Smart Contact-Based Flowmeter.jpg" width="700">
+</a>
+
+Click the image above to watch the project demonstration.
+</p>
+
+---
+
+## 🏗 System Architecture
+
+```text
+                  Water Flow
+                       │
+                       ▼
+          Paddle Wheel Flow Sensor
+                       │
+                       ▼
+                 ESP8266 MCU
+         ┌─────────────┴─────────────┐
+         │                           │
+         ▼                           ▼
+    OLED Display              Wi-Fi Communication
+                                      │
+                               WebSocket Server
+                                      │
+                                      ▼
+                        React Native Mobile App
+```
+
+---
+
+# 🔧 Hardware
+
+| Component | Description |
+|------------|-------------|
 | ESP8266 | Main microcontroller |
-| Paddle Wheel Flow Sensor | Flow rate measurement |
-| OLED Display | Local display |
-| TLV75733 Voltage Regulator | 3.3V power regulation |
-| LiPo Battery (3.7V 1200mAh) | Portable power |
-| TP4056 Type-C Charging Module | Battery charging |
+| Paddle Wheel Flow Sensor | Water flow measurement |
+| OLED Display | Local monitoring |
+| TLV75733 LDO | 3.3V voltage regulation |
+| TP4056 USB-C | Battery charging |
+| Li-ion Battery | Portable power source |
 | Custom PCB | Electronics integration |
-| 3D Printed Enclosure | Mechanical housing |
+| 3D Printed Enclosure | Product housing |
 
 ---
 
-## 💻 Software Stack
+# 💻 Software Stack
 
 | Layer | Technologies |
-|--------|--------------|
+|---------|--------------|
 | Embedded Firmware | Arduino (C++) |
-| Mobile App | React Native |
+| Mobile Application | React Native |
 | Backend | Node.js |
 | Database | SQLite |
-| Communication | WebSockets, HTTP |
+| Communication | WebSockets, REST API |
 | Authentication | JWT |
 
 ---
 
-## 📊 Product Highlights
+# 📊 Product Highlights
 
-- Accurate flow rate measurement
-- Portable battery-powered operation
-- Wireless real-time monitoring
-- Affordable hardware using locally available components
+- Compact portable design
+- Battery powered
+- Accurate flow measurement
+- Real-time wireless monitoring
+- Historical analytics
+- Cross-platform mobile application
+- Low-cost hardware
 - Easy installation
 - Modular architecture
-- Compact enclosure
 - Custom PCB design
 
 ---
 
-## 📷 Gallery
+# 📂 Repository Structure
 
-### Final Product
-
-```
-images/final_product.jpg
-```
-
-### Mobile Application
-
-```
-images/login.png
-images/home.png
-images/monitor.png
-images/analyze.png
-images/settings.png
-```
-
-### Enclosure
-
-```
-images/enclosure.png
-```
-
-### PCB
-
-```
-images/pcb.png
+```text
+.
+├── firmware/
+│   ├── src/
+│   ├── include/
+│   └── lib/
+│
+├── App/
+│   ├── src/
+│   ├── assets/
+│   └── package.json
+│
+├── Backend/
+│   ├── server/
+│   └── database/
+│
+├── Hardware/
+│   ├── PCB/
+│   ├── Schematics/
+│   └── Enclosure/
+│
+├── images/
+│
+├── README.md
+│
+└── LICENSE
 ```
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
-### Firmware
+## Firmware
 
 ```bash
 git clone https://github.com/yourusername/smart-flow-meter.git
@@ -165,91 +203,86 @@ Install the required libraries and upload the firmware to the ESP8266.
 
 ---
 
-### Mobile App
+## Backend
 
 ```bash
-cd mobile
+cd Backend
 npm install
 npm start
 ```
 
 ---
 
-## 📂 Repository Structure
+## Mobile Application
 
-```text
-.
-├── firmware/
-│   ├── src/
-│   └── include/
-│
-├── mobile/
-│   ├── src/
-│   ├── assets/
-│   └── package.json
-│
-├── hardware/
-│   ├── PCB/
-│   ├── Schematics/
-│   └── Enclosure/
-│
-├── images/
-│
-├── docs/
-│
-└── README.md
+```bash
+cd App
+npm install
+npx expo start
 ```
 
 ---
 
-## 🎯 Applications
+# 🎯 Applications
 
-- Smart Homes
-- Agriculture & Irrigation
-- Industrial Water Monitoring
-- Municipal Water Supply
-- Water Conservation Systems
+- 🏠 Smart Homes
+- 🌾 Agriculture & Irrigation
+- 🏭 Industrial Water Monitoring
+- 🚰 Municipal Water Supply
+- 🌍 Water Conservation Systems
 
 ---
 
-## 📈 Future Improvements
+# 🔮 Future Improvements
 
 - Cloud dashboard
 - OTA firmware updates
-- Leak detection using AI
-- Water consumption prediction
+- Leak detection
+- AI-based water consumption prediction
+- MQTT integration
 - Multi-device synchronization
 - Energy optimization
-- MQTT support
 - Web dashboard
 
 ---
 
-## 👥 Team
+# 👥 Team Neural Nexus
 
-**Team Neural Nexus**
+<p align="center">
+<img src="images/Team Photo.jpg" width="700">
+</p>
+
+*The Neural Nexus team following the successful development of the Smart Contact-Based Flow Meter.*
 
 | Team Member | Responsibility |
 |-------------|----------------|
-| Deneth Priyadarshana | Mobile App Development (Android & iOS) |
-| Lasan Perera | Circuit Design, Testing & Electronic Optimization |
-| Isitha Dinujaya | Enclosure Design & Algorithm Development |
-| Dulana Pitiwaduge | PCB Design & Market Analysis |
+| **Deneth Priyadarshana** | Mobile Application Development (Android & iOS) |
+| **Lasan Perera** | Circuit Design, Testing & Electronic Optimization |
+| **Isitha Dinujaya** | Enclosure Design & Algorithm Development |
+| **Dulana Pitiwaduge** | PCB Design & Market Analysis |
 
 ---
 
-## 🎓 Academic Project
+# 🎓 Academic Project
 
-**Course:** EN1190 – Engineering Design Project
+**Course**
 
-**Department:** Electronic & Telecommunication Engineering
+EN1190 — Engineering Design Project
 
-**Faculty:** Engineering
+**Department**
 
-**University:** University of Moratuwa
+Department of Electronic & Telecommunication Engineering
+
+**Faculty**
+
+Faculty of Engineering
+
+**University**
+
+University of Moratuwa
 
 ---
 
-## 📄 License
+# 📄 License
 
-This repository is intended for academic and educational purposes.
+This project was developed for academic and educational purposes as part of the EN1190 Engineering Design Project at the University of Moratuwa.
