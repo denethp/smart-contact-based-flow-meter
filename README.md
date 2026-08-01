@@ -53,19 +53,31 @@ The system measures water flow using a paddle-wheel flow sensor, processes measu
 ## 📱 Mobile Application
 
 <p align="center">
-<img src="App/login.png" width="170">
-<img src="App/home.png" width="170">
-<img src="App/monitor.png" width="170">
-<img src="App/analyze.png" width="170">
+  <img src="Gallery/App/1.PNG" width="170">
+  <img src="Gallery/App/2.PNG" width="170">
+  <img src="Gallery/App/3.PNG" width="170">
+  <img src="Gallery/App/4.PNG" width="170">
 </p>
 
 <p align="center">
-<img src="App/settings.png" width="170">
-<img src="App/devices.png" width="170">
-<img src="App/history.png" width="170">
-<img src="App/profile.png" width="170">
+  <img src="Gallery/App/5.PNG" width="170">
+  <img src="Gallery/App/6.PNG" width="170">
+  <img src="Gallery/App/7.PNG" width="170">
+  <img src="Gallery/App/8.PNG" width="170">
 </p>
 
+<p align="center">
+  <img src="Gallery/App/9.PNG" width="170">
+  <img src="Gallery/App/10.PNG" width="170">
+  <img src="Gallery/App/11.PNG" width="170">
+  <img src="Gallery/App/12.PNG" width="170">
+</p>
+
+<p align="center">
+  <img src="Gallery/App/13.PNG" width="170">
+  <img src="Gallery/App/14.PNG" width="170">
+  <img src="Gallery/App/15.PNG" width="170">
+</p>
 The React Native mobile application allows users to:
 
 - Monitor live flow rate and water temperature
